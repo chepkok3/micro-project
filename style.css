@@ -1,0 +1,69 @@
+body {
+  position: relative;
+  top: 40px;
+  left: 40px;
+  size: A4 landscape;
+  display: inline;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align-items: center;
+  text-align: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.video {
+  border: 5px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.sidebar {
+  height: 30%;
+  width: 150px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 40px;
+  background-color: lightblue;
+}
+
+.sidebar div {
+  padding: 8px;
+  font-size: 24px;
+  display: block;
+}
+
+.info {
+  align-items: center;
+  text-align: left;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  display: block;
+  padding: 20px;
+  max-width: 900px;
+  margin-left: 2cm;
+  margin-right: 2cm;
+  
+}
+
+.vidinfo{
+  display: block;
+  align-items: center;
+  text-align: left;
+  margin-left: 4cm;
+  margin-right: 4cm;
+}
+/*
+section p {
+  font-size: 12px;
+  line-height: 1.6;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  text-transform: none;
+  text-decoration: none;
+  text-align: left;
+  display: block;
+  align-items: center;
+}
